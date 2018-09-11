@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Mono Regular'), local('FiraMono-Regular'),
+       url('/fonts/fira-mono-v6-latin-ext_latin-regular.woff2') format('woff2'),
+       url('/fonts/fira-mono-v6-latin-ext_latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Mono Bold'), local('FiraMono-Bold'),
+       url('/fonts/fira-mono-v6-latin-ext_latin-700.woff2') format('woff2'),
+       url('/fonts/fira-mono-v6-latin-ext_latin-700.woff') format('woff');
+}
+
 html {
   font-size: 16px;
   line-height: 1.5rem;
@@ -6,12 +24,18 @@ html {
 body {
   color: white;
   font-family: 'Fira Mono', monospace;
+  font-weight: 400;
   background-color: #000806;
 }
 
 h1 {
   font-size: 3rem;
+  font-weight: 700;
   line-height: 4.5rem;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 p {
