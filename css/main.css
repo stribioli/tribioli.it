@@ -54,7 +54,7 @@ a:hover, a:active {
 }
 
 section {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 #main {
@@ -65,8 +65,7 @@ section {
 
 .band {
   float: right;
-  width: 15rem;
-  height: 20rem;
+  width: 5rem;
 }
 
 .bandpath {
@@ -75,5 +74,19 @@ section {
 
 #main h1 {
   margin-top: 0;
-  padding-top: 9rem;
+  padding-top: 3rem;
+}
+
+@media screen and (min-width: 599px) {
+  .band {
+    width: 15rem;
+  }
+
+  section {
+    margin-top: 5rem;
+  }
+
+  #main h1 {
+    padding-top: 9rem;
+  }
 }
