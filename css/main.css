@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  min-height: 100vh;
   color: white;
   font-family: 'Fira Mono', monospace;
   background-color: #000806;
@@ -38,15 +37,12 @@ section {
   max-width: 70rem;
   margin: 0 auto;
   padding: 0 1rem;
-  display: flex;
-  justify-content: space-between;
 }
 
 .band {
-  display: block;
+  float: right;
   width: 15rem;
   height: 20rem;
-  flex-shrink: 0;
 }
 
 .bandpath {
@@ -54,5 +50,6 @@ section {
 }
 
 #main h1 {
-  margin-top: 10rem;
+  margin-top: 0;
+  padding-top: 9rem;
 }
