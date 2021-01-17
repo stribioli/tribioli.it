@@ -10,7 +10,7 @@ RewriteBase /
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
-<FilesMatch ".+\.(gif|jpg|jpeg|png|ico|css|js)$">
+<FilesMatch ".+\.(gif|jpg|jpeg|png|ico|css|js|woff|woff2)$">
   Header set Cache-Control "max-age=86400, public"
 </FilesMatch>
 
